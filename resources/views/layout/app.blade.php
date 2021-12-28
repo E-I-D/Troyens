@@ -48,20 +48,20 @@
 
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
+            <h1 class="logo me-auto"><a href="index.html">TROYENS</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+                    <li><a class="nav-link scrollto active" href="{{ route('home')}}">Accueil</a></li>
                     <!--li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
                     <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li-->
                     <li class="dropdown"><a href="#"><span>Notre Association</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#">Historique</a></li>
+                            <li><a href="{{ route('histoire')}}">Historique</a></li>
                             <!--li class="dropdown"><a href="#"><span>Historique</span> <i class="bi bi-chevron-right"></i></a>
                                 <ul>
                                     <li><a href="#">Deep Drop Down 1</a></li>
@@ -71,14 +71,14 @@
                                     <li><a href="#">Deep Drop Down 5</a></li>
                                 </ul>
                             </li-->
-                            <li><a href="#">Le Bureau</a></li>
-                            <li><a href="#">Mot du Président</a></li>
-                            <li><a href="#">Nos Objectifs</a></li>
+                            <li><a href="{{ route('bureau')}}">Le Bureau</a></li>
+                            <li><a href="{{ route('message')}}">Mot du Président</a></li>
+                            <li><a href="{{ route('objectif')}}">Nos Objectifs</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Nos Projets</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#">La journée de l'Excellence</a></li>
+                            <li><a href="{{ route('jde')}}">La journée de l'Excellence</a></li>
                             <!--li class="dropdown"><a href="#"><span>Historique</span> <i class="bi bi-chevron-right"></i></a>
                                 <ul>
                                     <li><a href="#">Deep Drop Down 1</a></li>
@@ -88,7 +88,7 @@
                                     <li><a href="#">Deep Drop Down 5</a></li>
                                 </ul>
                             </li-->
-                            <li><a href="#">La journée du Troyens</a></li>
+                            <li><a href="{{ route('jdt')}}">La journée du Troyens</a></li>
                             <li><a href="#">La cérémonie Hommage</a></li>
                             <li><a href="#">L'Etablissement le "TROYEN"</a></li>
                         </ul>
@@ -122,7 +122,7 @@
                             <li><a href="#">Vidéos</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Nous Contacter</a></li>
                     <li><a class="getstarted scrollto" href="#about">Nous Rejoindre</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
