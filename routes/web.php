@@ -80,3 +80,7 @@ Route::get('/nous-contacter', function () {
 Route::get('/devenir-membre-ou-beneficiare', function () {
     return view('visitor.register');
 })->name('register');
+
+Route::get('/se-connecter', function () {
+    return view('visitor.login');
+})->name('login');

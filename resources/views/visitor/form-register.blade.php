@@ -1,120 +1,149 @@
-<div class="containers">
-    <form method="POST" action="">
-    <div class="rows1">
-        <h4>Informations générales</h4>
-        <div class="input-group input-group-icon">
-            <input type="text" placeholder="Nom et Prénoms" required/>
-            <div class="input-icon"><i class="fa fa-user"></i></div>
-        </div>
-        <div class="input-group input-group-icon">
-            <input type="tel" placeholder="Numero de téléphone" required/>
-            <div class="input-icon"><i class="fa fa-user"></i></div>
-        </div>
-        <div class="input-group input-group-icon">
-            <input type="email" placeholder="Adresse Email"/>
-            <div class="input-icon"><i class="fa fa-envelope"></i></div>
-        </div>
-        <h4>Paramètre de connexion</h4>
-        <div class="input-group input-group-icon">
-            <input type="text" placeholder="Matricule Scolaire" required/>
-            <div class="input-icon"><i class="fa fa-user"></i></div>
-        </div>
-        <div class="input-group input-group-icon">
-            <input type="password" placeholder="Mot de Passe" required/>
-            <div class="input-icon"><i class="fa fa-key"></i></div>
-        </div>
-        <div class="input-group input-group-icon">
-            <input type="password" placeholder="Confirmer le mot de passe" required/>
-            <div class="input-icon"><i class="fa fa-key"></i></div>
-        </div>
-    </div>
-    <div class="rows1">
-        <div class="col-half">
-            <h4>Date de naissance</h4>
-            <div class="input-group">
-                <div class="col-third">
-                    <input type="text" placeholder="JJ" required/>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+            <div class="p-2">
+                <div class="p-2">
+                    <img src="assets/images/pic13.jpg" class="img-fluid mx-auto d-block" alt="" />
                 </div>
-                <div class="col-third">
-                    <input type="text" placeholder="MM" required/>
+                <div class="p-2">
+                    <img src="assets/images/pic13.jpg" class="img-fluid mx-auto d-block" alt="" />
                 </div>
-                <div class="col-third">
-                    <input type="text" placeholder="AAAA" required/>
+                <div class="p-2">
+                    <img src="assets/images/pic13.jpg" class="img-fluid mx-auto d-block" alt="" />
                 </div>
             </div>
         </div>
-        <div class="col-half">
-            <h4>Genre</h4>
-            <div class="input-group">
-                <input id="gender-male" type="radio" name="gender" value="male" required/>
-                <label for="gender-male">Masculin</label>
-                <input id="gender-female" type="radio" name="gender" value="female" required/>
-                <label for="gender-female">Feminin</label>
-            </div>
-        </div>
-    </div>
-    <div class="rows1">
-        <h4>Cursus scolaire</h4>
-        <div class="input-group">
-            <input id="status1" type="radio" name="status" value="membres" required/>
-            <label for="status1"><span><i class="fa fa-cc-visa"></i>Ancien élève</span></label>
-            <input id="status2" type="radio" name="status" value="beneficiare" required/>
-            <label for="status2"> <span><i class="fa fa-cc-paypal"></i>Elève</span></label>
-        </div>
-        {{--Anciens élèves donc membres--}}
+        <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+            <div class="containers">
+                <form method="POST" action="">
+                <div class="rows1">
+                    <h4>Informations générales</h4>
+                    <div class="input-group input-group-icon">
+                        <input type="text" placeholder="Nom et Prénoms" required/>
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                    </div>
+                    <div class="input-group input-group-icon">
+                        <input type="tel" placeholder="Numero de téléphone" required/>
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                    </div>
+                    <div class="input-group input-group-icon">
+                        <input type="email" placeholder="Adresse Email"/>
+                        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                    </div>
+                    <h4>Paramètre de connexion</h4>
+                    <div class="input-group input-group-icon">
+                        <input type="text" placeholder="Matricule Scolaire" required/>
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                    </div>
+                    <div class="input-group input-group-icon">
+                        <input type="password" placeholder="Mot de Passe" required/>
+                        <div class="input-icon"><i class="fa fa-key"></i></div>
+                    </div>
+                    <div class="input-group input-group-icon">
+                        <input type="password" placeholder="Confirmer le mot de passe" required/>
+                        <div class="input-icon"><i class="fa fa-key"></i></div>
+                    </div>
+                </div>
+                <div class="rows1">
+                    <div class="col-half">
+                        <h4>Date de naissance</h4>
+                        <div class="input-group">
+                            <div class="col-third">
+                                <input type="text" placeholder="JOUR" required/>
+                            </div>
+                            <div class="col-third">
+                                <input type="text" placeholder="MOIS" required/>
+                            </div>
+                            <div class="col-third">
+                                <input type="text" placeholder="ANNEES" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-half">
+                        <h4>Genre</h4>
+                        <div class="input-group">
+                            <input id="gender-male" type="radio" name="gender" value="male" required/>
+                            <label for="gender-male">Masculin</label>
+                            <input id="gender-female" type="radio" name="gender" value="female" required/>
+                            <label for="gender-female">Feminin</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="rows1">
+                    <h4>Cursus scolaire</h4>
+                    <div class="input-group">
+                        <input id="status1" type="radio" name="status" value="membres" required/>
+                        <label for="status1"><span><i class="fa fa-cc-visa"></i>Ancien élève</span></label>
+                        <input id="status2" type="radio" name="status" value="beneficiare" required/>
+                        <label for="status2"> <span><i class="fa fa-cc-paypal"></i>Elève</span></label>
+                    </div>
+                    {{--Anciens élèves donc membres--}}
 
-        <div id="member" class="hide">
-            {{--la suites des entrées de ce bloc doivent etre validé coté back-end--}}
-            <div class="col-half">
-                <div class="input-group input-group-icon">
-                    <input type="text" placeholder="Votre Promo"/>
-                    <div class="input-icon"><i class="fa fa-user"></i></div>
-                </div>
-            </div>
-            <div class="col-half">
-                <div class="input-group">
-                    <select name="diplome">
-                        <option>Diplome</option>
-                        <option>BAC</option>
-                        <option>Aucun</option>
-                    </select>
-                    <select name="serie">
-                        <option>Serie</option>
-                        <option>A</option>
-                        <option>C</option>
-                        <option>D</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        {{--actuellement élève--}}
-        <div id="beneficiaire" class="hide">
-            {{--la suites des entrées de ce bloc doivent etre validé coté back-end--}}
+                    <div id="member" class="hide">
+                        {{--la suites des entrées de ce bloc doivent etre validé coté back-end--}}
+                        <div class="col-half">
+                            <div class="input-group input-group-icon">
+                                <input type="text" placeholder="Votre Promo"/>
+                                <div class="input-icon"><i class="fa fa-user"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-half">
+                            <div class="input-group">
+                                <select name="diplome">
+                                    <option>Diplome obtenu</option>
+                                    <option>BAC</option>
+                                    <option>Aucun</option>
+                                </select>
+                                <select name="serie">
+                                    <option>Serie</option>
+                                    <option>A</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    {{--actuellement élève--}}
+                    <div id="beneficiaire" class="hide">
+                        {{--la suites des entrées de ce bloc doivent etre validé coté back-end--}}
 
-            <div class="input-group">
-                <select name="classe">
-                    <option>Niveau d'etude</option>
-                    <option>Seconde</option>
-                    <option>Première</option>
-                    <option>Terminale</option>
-                </select>
-                <select name="serie">
-                    <option>Serie</option>
-                    <option>A</option>
-                    <option>C</option>
-                    <option>D</option>
-                </select>
+                        <div class="input-group">
+                            <select name="classe">
+                                <option>Niveau d'etude</option>
+                                <option>Seconde</option>
+                                <option>Première</option>
+                                <option>Terminale</option>
+                            </select>
+                            <select name="serie">
+                                <option>Serie</option>
+                                <option>A</option>
+                                <option>C</option>
+                                <option>D</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="rows1">
+                    <h4>Termes et Conditions</h4>
+                    <div class="input-group">
+                        <input id="terms" type="checkbox" required/>
+                        <label for="terms">J' accepte les termes et conditions d'utilisation du site web de l'association, et confirme avoir lu <a href="#">La politique d'utilisation et de protection des données<a>.</label>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer-newsletter text-center">
+                            <input type="submit" value="Devenir membre"/>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <label for="terms">Déja membre ? <a href="{{ route('login')}}"> se connecter ici</a></label>
+                        </div>
+                    </div>
+                </div>
+                </form>
             </div>
         </div>
+        <div class="marge-bottom"></div>
     </div>
-    <div class="rows1">
-        <h4>Termes et Conditions</h4>
-        <div class="input-group">
-            <input id="terms" type="checkbox" required/>
-            <label for="terms">J' accepte les termes et conditions d'utilisation du site web de l'association, et confirme avoir lu <a href="#">La politique d'utilisation et de protection des données<a>.</label>
-        </div>
-    </div>
-    </form>
 </div>
 
 <script>
@@ -157,6 +186,24 @@
         display: none;
     }
 
+    .footer-newsletter input[type=submit] {
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #009970;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    }
+    .footer-newsletter input[type=submit]:hover {
+    background: #00664b;
+    }
+
+    .marge-bottom{
+        margin-bottom: 2em;
+    }
 
     /* 64ac15 */
     body {
@@ -327,7 +374,7 @@
     transition: all 0.35s ease-in-out;
     }
     .containers {
-    max-width: 38em;
+    max-width: 100%;
     padding: 1em 3em 2em 3em;
     margin: 0em auto;
     background-color: #fff;
