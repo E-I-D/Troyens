@@ -42,7 +42,7 @@
             <h4>Newsletter</h4>
             <p>Abonnez vous à notre lettre d'information pour rester informer de nos nouveautés et dernières actualités</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="S'Abonner">
+              <input type="email" name="email"><input type="submit" value="S'abonner">
             </form>
           </div>
 

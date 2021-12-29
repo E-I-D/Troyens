@@ -45,92 +45,73 @@
     </div-->
     <!-- ***** Preloader End ***** -->
 
-
-    <header id="header" class="fixed-top ">
-        <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="index.html">TROYENS</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="{{ route('home')}}">Accueil</a></li>
-                    <!--li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li-->
-                    <li class="dropdown"><a href="#"><span>Notre Association</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ route('histoire')}}">Historique</a></li>
-                            <!--li class="dropdown"><a href="#"><span>Historique</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li-->
-                            <li><a href="{{ route('bureau')}}">Le Bureau</a></li>
-                            <li><a href="{{ route('message')}}">Mot du Président</a></li>
-                            <li><a href="{{ route('objectif')}}">Nos Objectifs</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Nos Projets</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ route('jde')}}">La journée de l'Excellence</a></li>
-                            <!--li class="dropdown"><a href="#"><span>Historique</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li-->
-                            <li><a href="{{ route('jdt')}}">La journée du Troyens</a></li>
-                            <li><a href="#">La cérémonie Hommage</a></li>
-                            <li><a href="#">L'Etablissement le "TROYEN"</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Nos Activités</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Actions Sociales et de Solidarités</a></li>
-                            <li class="dropdown"><a href="#"><span>Distinctions et Lauréats</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Grands Donateurs</a></li>
-                                    <li><a href="#">Donnateurs</a></li>
-                                    <li><a href="#">Ambassadeurs</a></li>
-                                    <li><a href="#">Palme d'Or</a></li>
-                                    <li><a href="#">Les Lauréats</a></li>
-                                    <li><a href="#">JDE</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Espace Jeux et Concours</a></li>
-                            <li><a href="#">Les Donateurs</a></li>
-                            <li class="dropdown"><a href="#"><span>Membres</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Adhérents</a></li>
-                                    <li><a href="#">Bénéficiares</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Médiathèques</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Photos</a></li>
-                            <li><a href="#">Vidéos</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="#contact">Nous Contacter</a></li>
-                    <li><a class="getstarted scrollto" href="#about">Nous Rejoindre</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1 class="text-light"><a href="{{ route('home')}}"><span>TROYENS</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
-    </header><!-- End Header -->
 
+        <nav id="navbar" class="navbar">
+            <ul>
+                <!--li><a class="nav-link scrollto active" href="{{ route('home')}}">Accueil</a></li-->
+                <li class="dropdown"><a href="#"><span>Notre Association</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="{{ route('histoire')}}">Historique</a></li>
+                        <li><a href="{{ route('bureau')}}">Le Bureau</a></li>
+                        <li><a href="{{ route('message')}}">Mot du Président</a></li>
+                        <li><a href="{{ route('objectif')}}">Nos Objectifs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Nos Projets</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="{{ route('jde')}}">La journée de l'Excellence</a></li>
+                        <li><a href="{{ route('jdt')}}">La journée du Troyens</a></li>
+                        <li><a href="#">La cérémonie Hommage</a></li>
+                        <li><a href="#">L'Etablissement le "TROYEN"</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Nos Activités</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Actions Sociales et de Solidarités</a></li>
+                        <li class="dropdown"><a href="#"><span>Distinctions et Lauréats</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Grands Donateurs</a></li>
+                                <li><a href="#">Donnateurs</a></li>
+                                <li><a href="#">Ambassadeurs</a></li>
+                                <li><a href="#">Palme d'Or</a></li>
+                                <li><a href="#">Les Lauréats</a></li>
+                                <li><a href="#">JDE</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Espace Jeux et Concours</a></li>
+                        <li><a href="#">Les Donateurs</a></li>
+                        <li class="dropdown"><a href="#"><span>Membres</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Adhérents</a></li>
+                                <li><a href="#">Bénéficiares</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Médiathèques</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Vidéos</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="#contact">Nous Contacter</a></li>
+                <li><a class="getstarted scrollto" href="{{ route('register')}}">Nous Rejoindre</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div><!-- End Header Container -->
+    </div>
+  </header><!-- End Header -->
 
 
     @yield('content')

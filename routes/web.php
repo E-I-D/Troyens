@@ -76,3 +76,7 @@ Route::get('/nos-videos', function () {
 Route::get('/nous-contacter', function () {
     return view('visitor.contact');
 })->name('contact');
+
+Route::get('/devenir-membre-ou-beneficiare', function () {
+    return view('visitor.register');
+})->name('register');

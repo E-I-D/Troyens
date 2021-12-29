@@ -1,9 +1,12 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="container" style="margin-top: 5em; margin-bottom: 5em">
-        <div class="row bg-white p-5">
+    <div class="container">
+        <div class="row">
             <div class="col-12">
+                <div class="marge-top"></div>
+            </div>
+            <div class="col-12 bg-white p-5">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -26,7 +29,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-md-9 col-sm-12 col-xs-12">
+            <div class="col-12 bg-white p-5 marge-bottom">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quos fuga ex odit enim, iure hic doloribus amet sunt, alias esse adipisci iste. Facere dolore fugit ratione, mollitia iure eveniet.</p>
             </div>
         </div>
@@ -35,6 +38,14 @@
     <style>
         body{
             background-color: #f1f1f1;
+        }
+
+        .marge-top{
+            margin-top: 7em;
+        }
+
+        .marge-bottom{
+            margin-bottom: 7em;
         }
     </style>
 @endsection

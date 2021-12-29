@@ -12,9 +12,9 @@
                     <div class="item item-1">
                         <div class="img-fill">
                             <div class="text-content">
-                            <h6>we are ready to help you</h6>
-                            <h4>Financial Analysis<br>&amp; Consulting</h4>
-                            <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. This is a multiple-page version with different HTML pages. <a href="one-page.html">One-page version</a> is available as of 2021 February.</p>
+                            <h6>Reseau des anciens élèves du lycée 3 de Daloa</h6>
+                            <h4>Notre reseau<br>est l'avenir de votre diplome !</h4>
+                            <p>TROYEN, association des anciens élèves du lycée 3 de Daloa a pour objectif de rassembler les anciens élèves en leur offrant des services et un cadre associatif et de tisser un réseau professionnel autour du Lycée 3 de Daloa.</p>
                             <a href="contact.html" class="filled-button">contact us</a>
                             </div>
                         </div>
@@ -28,9 +28,9 @@
                     <div class="item item-2">
                         <div class="img-fill">
                             <div class="text-content">
-                            <h6>we are here to support you</h6>
-                            <h4>Accounting<br>&amp; Management</h4>
-                            <p>You are allowed to use this template for your company websites. You are NOT allowed to re-distribute this template ZIP file on any template download website. Please contact TemplateMo for more detail.</p>
+                            <h6>Reseau des anciens élèves du lycée 3 de Daloa</h6>
+                            <h4>Notre reseau<br>est l'avenir de votre diplome !</h4>
+                            <p>TROYEN, association des anciens élèves du lycée 3 de Daloa a pour objectif de rassembler les anciens élèves en leur offrant des services et un cadre associatif et de tisser un réseau professionnel autour du Lycée 3 de Daloa.</p>
                             <a href="services.html" class="filled-button">our services</a>
                             </div>
                         </div>
@@ -44,9 +44,9 @@
                     <div class="item item-3">
                         <div class="img-fill">
                             <div class="text-content">
-                            <h6>we have a solid background</h6>
-                            <h4>Market Analysis<br>&amp; Statistics</h4>
-                            <p>You can download, edit and use this layout for your business website. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
+                            <h6>Reseau des anciens élèves du lycée 3 de Daloa</h6>
+                            <h4>Notre reseau<br>est l'avenir de votre diplome !</h4>
+                            <p>TROYEN, association des anciens élèves du lycée 3 de Daloa a pour objectif de rassembler les anciens élèves en leur offrant des services et un cadre associatif et de tisser un réseau professionnel autour du Lycée 3 de Daloa.</p>
                             <a href="about.html" class="filled-button">learn more</a>
                             </div>
                         </div>
@@ -108,22 +108,19 @@
                 <div class="row content">
                     <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                         <h2>Reseau des anciens élèves du lycée 3 de Daloa</h2>
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+                        <h3>TROYEN, association des anciens élèves du lycée 3 de Daloa a pour objectif de rassembler les anciens élèves en leur offrant des services et un cadre associatif et de tisser un réseau professionnel autour du Lycée 3 de Daloa.</h3>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum
+                            Fondée en 1980 l'Association TROYENS a pour principale mission d'animer la communauté des diplômés et élèves du lycée 3 de Daloa, promouvoir la solidarité entre eux et de mettre à leur disposition tout une batterie d'outils et services. Nos principales missions:
                         </p>
                         <ul>
-                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+                            <li><i class="ri-check-double-line"></i> Entretenir les liens entre les anciens élèves</li>
+                            <li><i class="ri-check-double-line"></i> Développer un réseau professionnel autour de Lycée 3 de Daloa.</li>
+                            <li><i class="ri-check-double-line"></i> Organiser des rencontres professionnelles ou informelles régulièrement (forums, afterworks, repas, etc) et venir en aide aux prochaines générations.</li>
                         </ul>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            Notre reseau est l'avenir de votre diplome !
                         </p>
                     </div>
                 </div>
@@ -169,11 +166,10 @@
                         <div class="content">
                             <h3>Pourquoi rejoindre le reseau des anciens élèves de lycée de Daloa 3</h3>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                            Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                                Faire vivre l'esprit Troyen, maintenir et entretenir le lien !
                             </p>
                             <div class="text-center">
-                                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                                <a href="#" class="more-btn">Lire la suite... <i class="bx bx-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -183,22 +179,22 @@
                                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-receipt"></i>
-                                        <h4>Corporis voluptates sit</h4>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <h4>Adhérer à une association</h4>
+                                        <p>Adhérer à une association et rejoindre un réseau de plus de 2000 Anciens</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-cube-alt"></i>
-                                        <h4>Ullamco laboris ladore pan</h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                        <h4>Annuaire des Anciens</h4>
+                                        <p>Recevoir l’annuaire des Anciens et le consulter en ligne</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-images"></i>
-                                        <h4>Labore consequatur</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                        <h4>Accéder à tout le service Emploi</h4>
+                                        <p>Les offres d’emploi reçues à l’Association sont enregistrées dans l’intranet de l’Association.</p>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +212,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="section-title" data-aos="fade-right">
-                        <h2>Membres</h2>
+                        <h2>Bureau</h2>
                         <p>Vous etes chaque jour de plus en plus nombreux à nous rejoindre et à soutenir nos activités.</p>
                     </div>
                 </div>
@@ -227,8 +223,8 @@
                             <div class="member" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
                                 <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
+                                <h4>Daniel Djedje</h4>
+                                <span>Président</span>
                                 <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
@@ -244,8 +240,8 @@
                             <div class="member" data-aos="zoom-in" data-aos-delay="200">
                                 <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
                                 <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Product Manager</span>
+                                <h4>Olivia Koffi</h4>
+                                <span>Vice Présidente</span>
                                 <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
@@ -261,8 +257,8 @@
                             <div class="member" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
                                 <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
+                                <h4>William Palenfo</h4>
+                                <span>Tresorier</span>
                                 <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
@@ -278,8 +274,8 @@
                             <div class="member" data-aos="zoom-in" data-aos-delay="400">
                                 <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
                                 <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
+                                <h4>Prisca Liade</h4>
+                                <span>Responsable Communication</span>
                                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
