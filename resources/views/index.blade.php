@@ -204,7 +204,7 @@
 
             </div>
         </section><!-- End Why Us Section -->
-
+        @include('visitor.actudiapo.diapo')
         <!-- ======= Team Section ======= -->
         <section id="team" class="team">
             <div class="container">

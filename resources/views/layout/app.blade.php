@@ -48,6 +48,19 @@
     <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-2">
+                        <h6>Flash-Info:</h6>
+                    </div>
+                    <div class="col-10">
+                        <marquee>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint labore cupiditate, molestias qui tenetur minus quos </marquee>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
       <div class="header-container d-flex align-items-center justify-content-between">
         <div class="logo">
           <h1 class="text-light"><a href="{{ route('home')}}"><span>TROYENS</span></a></h1>
