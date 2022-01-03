@@ -52,7 +52,7 @@
             <div class="col-10">
                 <div class="row">
                     <div class="col-2">
-                        <h6>Flash-Info:</h6>
+                        <p class="flash-info">Flash-Info:</p>
                     </div>
                     <div class="col-10">
                         <marquee>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint labore cupiditate, molestias qui tenetur minus quos </marquee>
